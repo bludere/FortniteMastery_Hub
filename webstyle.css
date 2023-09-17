@@ -1,0 +1,266 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&display=swap');
+@font-face {
+    font-family: "LIQUIDO Fluid";
+    src: url(LIQUIDO-Fluid.otf);
+    
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+@font-face {
+    font-family: "Cascadia Code";
+    src: url(Cascadia.ttf);
+    
+  }
+
+
+header:hover{
+    transition: background-color 1s;
+}
+body, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+
+}
+
+*{
+    font-weight: 500;
+}
+
+h1{
+    font-weight: 900;
+}
+
+
+body {
+    font-family: "Poppins";
+    line-height: 1.6;
+    text-align: left;
+}
+
+p{
+    text-align: left;
+    padding-left: 30px;
+
+}
+
+img {
+    float: left;
+    margin: 30px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+    transition: .3s;
+  }
+
+header {
+    background-color: #333;
+    font-weight: 900;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+    font-family: "Cascadia Code";
+    cursor: pointer;
+    margin: auto;
+    transition: font-weight 250ms ease-in-out;
+    transition: 0.9s;
+}
+
+
+.logo {
+    font-size: 90px;
+    padding: 0px;
+    font-family: "LIQUIDO Fluid";
+    font-weight:900;
+    color: white;
+    background: rgb(63,94,251);
+    background: linear-gradient(90deg, rgba(63,94,251,1) 36%, rgba(252,74,70,1) 100%);
+    
+}
+
+
+.connectors {
+    list-style: none;
+    display: inline-block;
+    margin-top: 10px;
+    
+}
+
+.connectors li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.connectors a {
+    text-decoration: none;
+    color: #fff;
+}
+
+
+section {
+    padding: 50px 0;
+    text-align: center;
+}
+
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+button{
+        background-color:#4070f4; 
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+        margin-left: 35px;
+        margin-bottom: 15px;
+        font-family: "Poppins";
+      }
+    
+
+    
+.classes{
+    text-align: center;
+}
+
+.epicwhale{
+    padding-bottom: 100px;
+    padding-right: 10px;
+    margin-top: 25px;
+    margin-bottom: 150px;
+    padding-bottom: 20px;
+}
+
+.aboutimg{
+    padding-bottom: 100px;
+    padding: 20px;
+    margin-bottom: 100px;
+}
+
+.bug{
+    margin-bottom: 15px;
+    margin-left: 20px;
+}
+
+button:hover{
+    font-weight: 900;
+    transition: 250ms ease-in-out;
+    font-style: italic;
+  }
+
+ul:hover{
+    transition: 250ms ease-in-out;
+    font-style: italic;
+
+}
+
+.testimonial-grid {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+	gap: 20px;
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 20px;
+	text-align: center;
+}
+
+.testimonial-container {
+	background-color: #ffffff;
+	border-radius: 12px;
+	padding: 30px;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+.testimonial-avatar {
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	overflow: hidden;
+	margin: 0 auto 20px;
+}
+
+.testimonial-avatar img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+    margin: 0;
+}
+
+.testimonial-text {
+	margin-bottom: 20px;
+}
+
+.testimonial-name {
+	font-size: 20px;
+	font-weight: bold;
+	margin-bottom: 5px;
+	color: #333333;
+}
+
+.testimonial-role {
+	font-size: 16px;
+	color: #666666;
+}
+iframe{
+    padding: 30px;
+    filter: contrast(1.1);
+}
+iframe:hover{
+    transition: all 0.5s;
+    filter: contrast(1.2);
+    scale: 1.01;
+}
+
+.testimonial-container:hover{
+    font-style: italic;
+    transition: 250ms ease-in-out;
+}
+
+
+
+
+img:hover{
+    transition: 250ms ease-in-out;
+    cursor: pointer;
+    filter: grayscale(0);
+    transform: scale(1.07);
+    
+}
+
+.vid2{
+    margin-left: 400px;
+}
+
+/*/.logo:hover{
+    background-color:hsl(from color h s l);
+    background-image: linear-gradient(315deg, #4486f9 0%, #9921e8 74%);
+    transition:0.9s ease;
+}/*/
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+.coaches{
+    margin-bottom: 0;
+}
+
+.form iframe:hover{
+    height: 500px;
+}
+
+.contact{
+    transform: scale(1.00001) rotate(7deg);
+}
+
